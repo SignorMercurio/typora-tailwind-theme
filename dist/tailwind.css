@@ -1033,16 +1033,10 @@ pre code::after {
 
 code {
   color: var(--tw-prose-code);
-  font-weight: 600;
   font-size: var(--inline-code-font-size);
-}
-
-code::before {
-  content: "`";
-}
-
-code::after {
-  content: "`";
+  padding: 2px 4px;
+  border-radius: 3px;
+  background-color: var(--blue-100);
 }
 
 [md-inline="code"].md-expand > code::before,

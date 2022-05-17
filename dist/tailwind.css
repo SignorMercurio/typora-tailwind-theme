@@ -1117,9 +1117,13 @@ strong {
 a {
   color: var(--tw-prose-links);
   text-decoration: none;
-  border-bottom: .1rem solid var(--tw-prose-links);
   font-weight: 500;
 }
+
+#write a .md-plain:hover, .md-htmlblock-container a:hover {
+  border-bottom: .1rem solid var(--tw-prose-links);
+}
+
 
 /* A block-level image should have a total top and bottom margin of 2em.
 It is always wrapped in a paragraph with 1.2em vertical margin, hence we

@@ -134,7 +134,7 @@
   --rawblock-edit-panel-bd: var(--tw-prose-pre-bg);
   --item-hover-bg-color-inverted: var(--theme-700);
 
-  --monospace: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+  --monospace: JuliaMono, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 
   /* Custom */
